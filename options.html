@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"> 
+  <title data-i18n="optionsTitle"></title>
+  <style>
+    body { 
+      font-family: sans-serif; 
+      padding: 10px; /* 稍微减少内边距，让它在小窗口里不那么拥挤 */
+      min-width: 350px; /* <-- 核心改动：设置一个舒适的最小宽度 */
+    }
+    h1 { 
+      font-size: 1.2em; 
+      margin-top: 0; /* 移除顶部外边距 */
+      text-align: center; /* 标题居中更好看 */
+    }
+    fieldset { 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      padding: 10px 15px; 
+      margin-bottom: 15px; 
+    }
+    legend { font-weight: bold; }
+    label { 
+      display: block; /* 改为 block 以便注释能正确换行 */
+      cursor: pointer; 
+      margin-bottom: 10px; 
+    }
+    input { 
+      margin-right: 8px; /* 微调间距 */
+      vertical-align: middle; 
+    }
+    .note { 
+      font-size: 0.8em; 
+      color: #555; 
+      margin-left: 26px; /* 根据input+margin调整对齐 */
+    }
+    .warning { 
+      font-size: 0.8em; 
+      color: #d9534f; 
+      margin-left: 26px; /* 根据input+margin调整对齐 */
+    }
+  </style>
+</head>
+<body>
+
+  <h1 data-i18n="optionsTitle"></h1>
+
+  <fieldset>
+    <legend data-i18n="leftClickSettingsLegend"></legend>
+    <label>
+      <input type="checkbox" id="textSelectionToggle">
+      <span data-i18n="textSelectionToggleLabel"></span>
+      <div class="note" data-i18n="textSelectionToggleNote"></div>
+    </label>
+    <label>
+      <input type="checkbox" id="imageToggle">
+      <span data-i18n="imageToggleLabel"></span>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <legend data-i18n="rightClickSettingsLegend"></legend>
+    <label>
+      <input type="checkbox" id="rightClickToggle">
+      <span data-i18n="rightClickToggleLabel"></span>
+      <div class="warning" data-i18n="rightClickToggleWarning"></div>
+    </label>
+  </fieldset>
+  
+  <p id="status" style="color: green; text-align: center;"></p>
+
+  <script src="options.js"></script>
+</body>
+</html>

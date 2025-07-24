@@ -1,0 +1,46 @@
+{
+  "extName": {
+    "message": "ダブルクリックでページを閉じる",
+    "description": "拡張機能の名前。"
+  },
+  "extDescription": {
+    "message": "ダブルクリックでページを閉じるための拡張機能です。左右のマウスボタンの設定が可能です。",
+    "description": "拡張機能の説明。"
+  },
+  "optionsTitle": {
+    "message": "ダブルクリックでページを閉じる - オプション",
+    "description": "オプションページのタイトル。"
+  },
+  "leftClickSettingsLegend": {
+    "message": "左クリックの設定",
+    "description": "左クリック設定の凡例。"
+  },
+  "textSelectionToggleLabel": {
+    "message": "テキスト選択のダブルクリック時にページを閉じない",
+    "description": "テキスト選択チェックボックスのラベル。"
+  },
+  "textSelectionToggleNote": {
+    "message": "誤操作を防止します。",
+    "description": "テキスト選択チェックボックスの注釈。"
+  },
+  "imageToggleLabel": {
+    "message": "画像上のダブルクリックでページを閉じることを許可する",
+    "description": "画像チェックボックスのラベル。"
+  },
+  "rightClickSettingsLegend": {
+    "message": "右クリックの設定",
+    "description": "右クリック設定の凡例。"
+  },
+  "rightClickToggleLabel": {
+    "message": "右ダブルクリックで無条件にページを閉じる機能を有効にする",
+    "description": "右クリックチェックボックスのラベル。"
+  },
+  "rightClickToggleWarning": {
+    "message": "注意：この機能は動画やライブ配信などのウィンドウでページを閉じるために使用できます。",
+    "description": "右クリックチェックボックスの警告。"
+  },
+  "statusSaved": {
+    "message": "設定を保存しました。",
+    "description": "設定が保存された後のステータスメッセージ。"
+  }
+}

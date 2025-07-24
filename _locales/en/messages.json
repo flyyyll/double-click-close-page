@@ -1,0 +1,46 @@
+{
+  "extName": {
+    "message": "Double Click to Close Page",
+    "description": "The name of the extension."
+  },
+  "extDescription": {
+    "message": "An extension to close pages by double-clicking, with configurable settings for left and right mouse buttons.",
+    "description": "The description of the extension."
+  },
+  "optionsTitle": {
+    "message": "Double Click to Close page - Options",
+    "description": "Title on the options page."
+  },
+  "leftClickSettingsLegend": {
+    "message": "Left-Click Settings",
+    "description": "Legend for left-click settings."
+  },
+  "textSelectionToggleLabel": {
+    "message": "Don't close page when double-clicking to select text",
+    "description": "Label for the text selection checkbox."
+  },
+  "textSelectionToggleNote": {
+    "message": "Prevents accidental closing.",
+    "description": "Note for the text selection checkbox."
+  },
+  "imageToggleLabel": {
+    "message": "Allow closing page when double-clicking on an image",
+    "description": "Label for the image checkbox."
+  },
+  "rightClickSettingsLegend": {
+    "message": "Right-Click Settings",
+    "description": "Legend for right-click settings."
+  },
+  "rightClickToggleLabel": {
+    "message": "Enable unconditional right-click double-click to close page",
+    "description": "Label for the right-click checkbox."
+  },
+  "rightClickToggleWarning": {
+    "message": "Reminder: This feature can be used to close pages in windows like videos and live streams.",
+    "description": "Warning for the right-click checkbox."
+  },
+  "statusSaved": {
+    "message": "Options saved.",
+    "description": "Status message when options are saved."
+  }
+}

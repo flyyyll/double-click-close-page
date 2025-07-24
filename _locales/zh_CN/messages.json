@@ -1,0 +1,46 @@
+{
+  "extName": {
+    "message": "双击页面关闭标签页",
+    "description": "插件的名称。"
+  },
+  "extDescription": {
+    "message": "一个通过双击来关闭标签页的插件，可调整左右键设置",
+    "description": "插件的描述。"
+  },
+  "optionsTitle": {
+    "message": "双击页面关闭标签页 - 选项",
+    "description": "选项页的标题。"
+  },
+  "leftClickSettingsLegend": {
+    "message": "左键双击设置",
+    "description": "左键双击设置的图例。"
+  },
+  "textSelectionToggleLabel": {
+    "message": "当双击选中文本时不关闭页面",
+    "description": "文本选中复选框的标签。"
+  },
+  "textSelectionToggleNote": {
+    "message": "防止误关。",
+    "description": "文本选中复选框的注释。"
+  },
+  "imageToggleLabel": {
+    "message": "允许在图片上双击时关闭页面",
+    "description": "图片复选框的标签。"
+  },
+  "rightClickSettingsLegend": {
+    "message": "右键双击设置",
+    "description": "右键双击设置的图例。"
+  },
+  "rightClickToggleLabel": {
+    "message": "启用右键双击无条件关闭页面",
+    "description": "右键复选框的标签。"
+  },
+  "rightClickToggleWarning": {
+    "message": "提醒：可在视频，直播等窗口使用此功能关闭页面",
+    "description": "右键复选框的警告。"
+  },
+  "statusSaved": {
+    "message": "选项已保存。",
+    "description": "选项保存后的状态消息。"
+  }
+}

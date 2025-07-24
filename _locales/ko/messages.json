@@ -1,0 +1,46 @@
+{
+  "extName": {
+    "message": "더블 클릭으로 페이지 닫기",
+    "description": "확장 프로그램의 이름."
+  },
+  "extDescription": {
+    "message": "더블 클릭으로 페이지를 닫는 확장 프로그램입니다. 좌클릭 및 우클릭 설정을 조정할 수 있습니다.",
+    "description": "확장 프로그램의 설명."
+  },
+  "optionsTitle": {
+    "message": "더블 클릭으로 페이지 닫기 - 옵션",
+    "description": "옵션 페이지의 제목."
+  },
+  "leftClickSettingsLegend": {
+    "message": "좌클릭 설정",
+    "description": "좌클릭 설정의 범례."
+  },
+  "textSelectionToggleLabel": {
+    "message": "텍스트 선택을 위해 더블 클릭 시 페이지 닫지 않기",
+    "description": "텍스트 선택 체크박스의 레이블."
+  },
+  "textSelectionToggleNote": {
+    "message": "실수로 닫는 것을 방지합니다.",
+    "description": "텍스트 선택 체크박스의 메모."
+  },
+  "imageToggleLabel": {
+    "message": "이미지 위에서 더블 클릭 시 페이지 닫기 허용",
+    "description": "이미지 체크박스의 레이블."
+  },
+  "rightClickSettingsLegend": {
+    "message": "우클릭 설정",
+    "description": "우클릭 설정의 범례."
+  },
+  "rightClickToggleLabel": {
+    "message": "우클릭 더블 클릭으로 조건 없이 페이지 닫기 활성화",
+    "description": "우클릭 체크박스의 레이블."
+  },
+  "rightClickToggleWarning": {
+    "message": "알림: 이 기능은 동영상, 라이브 스트리밍과 같은 창에서 페이지를 닫는 데 사용할 수 있습니다.",
+    "description": "우클릭 체크박스의 경고."
+  },
+  "statusSaved": {
+    "message": "설정이 저장되었습니다.",
+    "description": "설정이 저장된 후의 상태 메시지."
+  }
+}
